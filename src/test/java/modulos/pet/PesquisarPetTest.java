@@ -23,6 +23,24 @@ public class PesquisarPetTest extends TestBase {
             .statusCode(404)
             .log().body();
     }
+
+    @Test
+    @DisplayName("\"Deve pesquisar por um pet existente \"")
+    public void testPesquisarPorUmPetExistenteComSucesso() {
+        int petId = 2;
+
+        // Executar um GET para validar se os dados do pet foram inseridos
+        given()
+            .contentType(ContentType.JSON)
+        .when()
+            .get("/pet/" + petId)
+        .then()
+            .body("status", equalTo("available"))
+            .statusCode(200)
+            .log().body();
+    }
+
+
     @Test
     @DisplayName("Deve pesquisar por pets com status pending")
     public void testPesquisarPorPetsComStatusPendente() {
