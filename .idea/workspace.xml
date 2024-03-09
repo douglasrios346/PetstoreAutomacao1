@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07daf674-0786-4329-9bec-5cbfe1caa5d9" name="Changes" comment="Teste Tecnico" />
+    <list default="true" id="07daf674-0786-4329-9bec-5cbfe1caa5d9" name="Changes" comment="Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +155,7 @@
       <workItem from="1709986022828" duration="9342000" />
       <workItem from="1709997613767" duration="1228000" />
       <workItem from="1710000178599" duration="35000" />
-      <workItem from="1710000921172" duration="5474000" />
+      <workItem from="1710000921172" duration="5957000" />
     </task>
     <task id="LOCAL-00001" summary="Teste Tecnico Petstore">
       <created>1709956079428</created>
@@ -197,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710023318633</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit">
+      <created>1710023642004</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710023642004</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +241,8 @@
     <MESSAGE value="Update com ajustes finais" />
     <MESSAGE value="Test Results" />
     <MESSAGE value="Teste Tecnico" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste Tecnico" />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PetstoreAutomacao$modulos.ic" NAME="modulos Coverage Results" MODIFIED="1709994225860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
